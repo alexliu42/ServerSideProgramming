@@ -1,0 +1,41 @@
+<html>
+  <body>
+    <h2>
+      Add new items
+    </h2>
+    <form action ="/add_item" method="post">
+      <label>Name:</label>
+      <input type="text" name="add_name"><br>
+      <label>Quantity:</label>
+      <input type="text" name="add_quantity"><br>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+    <br>
+    <h2>
+      Find and return all items
+    </h2>
+    <form action ="/findall_item" method="post">
+      <input type="submit" name="submit" value="Click me to view your items">           
+    </form>
+    <br>
+    <h2>
+      Delete an existing item
+    </h2>
+    <form action ="/delete_item" method="post">
+      <label>Name:</label>
+      <input type="text" name="delete_name"><br>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+    <br>
+    <h2>
+      Update your item
+    </h2>
+    <form action ="/update_item" method="post">
+      <label>Name:</label>
+      <input type="text" name="update_name"><br>
+      <label>Quantity:</label>
+      <input type="text" name="update_quantity"><br>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </body>
+</html>

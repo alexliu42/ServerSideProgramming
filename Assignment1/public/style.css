@@ -1,0 +1,48 @@
+h1 {
+  font-size: 30;
+  font-family:Palatino Linotype;
+}
+
+h2 {
+  font-size: 20;
+  font-style: italic;
+  font-family:Palatino Linotype;
+}
+
+h3 {
+  margin-top:150;
+  margin-bottom:10;
+  font-style: italic;
+  font-family:Palatino Linotype;  
+}
+p {
+  font-family:Palatino Linotype;  
+  width:700;
+}
+
+img {
+  height: 300;
+  width: 235;
+  float: left;
+}
+
+body {
+  background-color:White;
+}
+
+button {
+  background-color:Orange;
+  color: Black;
+  font-family:Tahoma;
+  text-align: center;
+  float: right;
+  height: 40;
+  width: 150;
+  display: inline-block
+}
+
+a {
+  font-size: 13;
+  font-style: normal;
+  font-family:Palatino Linotype;
+}

@@ -1,0 +1,38 @@
+*{
+}
+
+h1 {
+  color:Black;
+  margin-left:250;
+}
+
+h2 {
+  margin-top:100;
+  font-size:20;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color:yellow;
+  background: linear-gradient(to bottom,white 0%,white 28%,skyblue 30%,skyblue 50%,skyblue 100%);
+}
+
+p {
+  max-width: 600px;
+  margin-top:-10;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  float:left;
+}
+
+label {
+  margin-top:-10;
+}
+
+a {
+  margin-top:1000;
+}
